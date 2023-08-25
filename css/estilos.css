@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Multani&family=Noto+Serif&display=swap');
 
 
 *{
@@ -179,6 +179,7 @@ nav {
     font-size: 20px;
     margin-top: 100px;
     color: #898585;
+    font-family: 'Noto Sans Multani', sans-serif;
 }
 
 .boton2 {
@@ -228,7 +229,7 @@ nav {
 .algodemi {
     margin-top: 25px;
     color: white;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Sans Multani', sans-serif;
     font-size: 15px;
 }
 
@@ -239,102 +240,140 @@ nav {
 }
 
 .misfocos {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Sans Multani', sans-serif;
     color: #ffffff;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    
 }
+
+.misfocos2 {
+    font-family: 'Noto Sans Multani', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    }
 
 .hr1 {
-    width: 5%;
+    width: 110%;
     font-weight: bold;
+    border-top: 2px solid white;
 }
 
+.grancontenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedordefoco {
+    margin-top: 120px;
+}
+
+.contenedordeprogresos {
+    margin-left: 150px;
+    margin-top: 60px;
+}
 
 /*BARRAS DE PROGRESO*/
 
 
 .progress-bar {
-    width: 400px; /* Ancho de la barra de progreso */
-    height: 35px; /* Altura de la barra de progreso */
-    background-color: white; /* Color de fondo de la barra de progreso */
-    border: 1px solid #ccc; /* Borde de la barra de progreso */
+    width: 400px; 
+    height: 35px; 
+    background-color: white; 
+    border: 1px solid #ccc; 
     overflow: hidden;
     margin-top: 10px;
 }
 
 .progress-text {
-    width: 100px; /* Ancho de la parte "Adobe XD" */
+    width: 100px; 
     height: 100%;
-    background-color: #898585; /* Color gris oscuro para la parte "Adobe XD" */
-    color: white; /* Color de texto en la parte "Adobe XD" */
+    background-color: #898585; 
+    color: white; 
     text-align: center;
-    line-height: 35px; /* Alineación vertical del texto */
+    line-height: 35px; 
     float: left;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Sans Multani', sans-serif;
 }
 
 .progress1 {
-    width: 80%; /* Ancho de la barra de progreso (70%) */
+    width: 80%; 
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
 .progress2 {
-    width: 80%; /* Ancho de la barra de progreso (70%) */
+    width: 80%; 
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
 .progress3 {
-    width: 60%; /* Ancho de la barra de progreso (70%) */
+    width: 60%;
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
 .progress4 {
-    width: 55%; /* Ancho de la barra de progreso (70%) */
+    width: 55%; 
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
 .progress5 {
-    width: 90%; /* Ancho de la barra de progreso (70%) */
+    width: 90%; 
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
 .progress6 {
-    width: 70%; /* Ancho de la barra de progreso (70%) */
+    width: 70%; 
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
 .progress7 {
-    width: 80%; /* Ancho de la barra de progreso (70%) */
+    width: 80%; 
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
 .progress8 {
-    width: 60%; /* Ancho de la barra de progreso (70%) */
+    width: 60%; 
     height: 100%;
-    background-color: #ccc; /* Color gris claro para la barra de progreso */
-    transition: width 2s; /* Animación de la barra de progreso */
+    background-color: #ccc; 
+    transition: width 2s; 
 }
 
+
+/*PORTFOLIO*/
+
+.portfolio{
+    font-family: 'Noto Serif', serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+    margin-top: 60px;
+}
 
 
 /*TARJETAS*/
 
 .tarjeta1 {
     width: 300px;
-    height: 200px;
+    height: 250px;
     background-color: #898585;
     border: 1px solid #898585;
     text-align: center;
@@ -344,12 +383,20 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.2;
+    cursor: pointer;
+    transition: all 400ms ease;
     
+}
+
+.tarjeta1:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 0px 20px 0px #d3cfce;
 }
 
 .tarjeta2 {
     width: 300px;
-    height: 200px;
+    height: 250px;
     background-color: #333030;
     border: 1px solid #333030;
     text-align: center;
@@ -358,6 +405,13 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.tarjeta2:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 0px 20px 0px #d3cfce;
 }
 
 .texto {
@@ -365,11 +419,7 @@ nav {
     line-height: 100px;
     margin: 0;
     color: white;
-}
-
-.hr1 {
-    color: black;
-    font-weight: bold;
+    font-family: 'Noto Sans Multani', sans-serif;
 }
 
 .hr2 {
@@ -379,14 +429,131 @@ nav {
     width: 30%;
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .contenedortarjetas {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
 .contenedortarjetas2 {
     display: flex;
     justify-content: center;
+}
+
+/* FOOTER */
+
+footer {
+   height: 200px;
+   background-color: #383737;
+}
+
+.mayorcontenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primeraparte{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail {
+    display: flex;
+    color: white;
+    font-family: 'Noto Sans Multani', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.email {
+    margin-right: 10px;
+}
+
+.telefono {
+    display: flex;
+    color: white;
+    font-family: 'Noto Sans Multani', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.phone {
+    margin-right: 10px;
+}
+
+.getintouch {
+    width: 50%;
+    color: white;
+    font-family: 'Noto Sans Multani', sans-serif;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.boton3{
+    background-color: rgba(0, 0, 0, 0); 
+    border: 3px solid white; 
+    color: white;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-family: 'Noto Sans Multani', sans-serif;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.boton3:hover {
+    background-color: white; 
+    color: black;
+}
+
+.iconos2 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-inline: 20px;
+    margin-right: 50px;
+}
+
+.linkedin2 {
+    margin-right: 10px;
+    color: white;
+    transition: color 0.1s ease;
+    text-decoration: none;
+}
+
+.linkedin2:hover {
+    color: grey; 
+    cursor: pointer;
+}
+
+.facebook2 {
+    margin-right: 10px;
+    color: white;
+    transition: color 0.1s ease;
+    text-decoration: none;
+}
+
+.facebook2:hover {
+    color: grey; 
+    cursor: pointer;
+}
+
+.twitter2 {
+    color: white;
+    transition: color 0.1s ease;
+    text-decoration: none;
+}
+
+.twitter2:hover {
+    color: grey; 
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Noto Sans Multani', sans-serif;
+    margin-top: 20px;
 }
