@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -25,33 +28,56 @@ nav {
     text-decoration-line: none;
 }
 
+
 .inicio {
-    margin-right: 50px;
+    margin-right: 80px;
     font-size: 20px;
     text-decoration: none;
-    color: #333030;
+    color: #3e3d3d;
+    font-family: 'Noto Serif', serif;
+}
+
+.inicio:hover {
+    text-decoration: underline;
 }
 
 .acerca {
-    margin-right: 50px;
+    margin-right: 80px;
     font-size: 20px;
     text-decoration: none; 
-    color: #333030;
+    color: #3e3d3d;
+    font-family: 'Noto Serif', serif;
+}
+
+.acerca:hover {
+    text-decoration: underline;
 }
 
 .proyectos {
-    margin-right: 50px;
+    margin-right: 80px;
     font-size: 20px;
     text-decoration: none; 
-    color: #333030;
+    color: #3e3d3d;
+    font-family: 'Noto Serif', serif;
+}
+
+.proyectos:hover {
+    text-decoration: underline;
 }
 
 .contacto {
     margin-right: 30px;
     font-size: 20px;
     text-decoration: none; 
-    color: #333030;
+    color: #3e3d3d;
+    font-family: 'Noto Serif', serif;
 }
+
+.contacto:hover{
+    text-decoration: underline;
+}
+
+/*ICONOS*/
 
 .iconos {
     margin-top: 55px;
@@ -59,12 +85,132 @@ nav {
     margin-inline: 20px;
 }
 
-
-
-
-.fondo{
-    background-image: url(/imagenes/imagen.jpg);
+.linkedin {
+    margin-right: 10px;
+    color: #333030;
+    transition: color 0.1s ease;
+    text-decoration: none;
 }
+
+.linkedin:hover {
+    color: grey; 
+    cursor: pointer;
+}
+
+.facebook {
+    margin-right: 10px;
+    color: #333030;
+    transition: color 0.1s ease;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: grey; 
+    cursor: pointer;
+}
+
+.twitter {
+    color: #333030;
+    transition: color 0.1s ease;
+    text-decoration: none;
+}
+
+.twitter:hover {
+    color: grey; 
+    cursor: pointer;
+}
+
+/* HERO */
+
+.hero{
+    background-image: url(../imagenes/imagen.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.minombre {
+    color: white;
+    font-size: 50px;
+    margin-left: 70px;
+    font-family: 'Noto Serif', serif;
+}
+
+.webdeveloper {
+    color: white;
+    font-size: 20px;
+    margin-left: 130px;
+    font-family: 'Noto Serif', serif;
+}
+
+
+.boton1{
+    background-color: rgba(0, 0, 0, 0); 
+    border: 3px solid white; 
+    color: white;
+    padding: 10px 20px; 
+    cursor: pointer;
+    margin-left: 250px;
+    font-family: 'Noto Serif', serif;
+}
+
+.boton1:hover {
+    background-color: white; 
+    color: black;
+}
+
+/* ACERCA DE MI */
+
+.segundaseccion {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tituloacerca {
+    margin-top: 80px;
+    font-family: 'Noto Serif', serif;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sobremi {
+    font-size: 20px;
+    margin-top: 100px;
+    color: #898585;
+}
+
+.boton2 {
+    background-color: #383737; 
+    color: #ffffff; 
+    padding: 25px 30px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 20px;
+}
+
+.boton2:hover {
+    background-color: #746d6d; 
+    color: white;
+}
+
+.contenedorboton {
+    width: 15%;
+    margin: 0 auto;
+}
+
+
+
+/*HERRAMIENTAS*/
+
+.herramientas {
+    height: 500px;
+    background-color: #383737;
+}
+
+
+
 
 /*BARRAS DE PROGRESO*/
 
