@@ -232,11 +232,21 @@ nav {
     font-size: 15px;
 }
 
-.mifoco {
+.mifocoyprogreso {
+    margin-bottom: 40px;
     display: flex;
+    
 }
 
+.misfocos {
+    font-family: 'Noto Serif', serif;
+    color: #ffffff;
+}
 
+.hr1 {
+    width: 5%;
+    font-weight: bold;
+}
 
 
 /*BARRAS DE PROGRESO*/
@@ -259,6 +269,7 @@ nav {
     text-align: center;
     line-height: 35px; /* Alineación vertical del texto */
     float: left;
+    font-family: 'Noto Serif', serif;
 }
 
 .progress1 {
