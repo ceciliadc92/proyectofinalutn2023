@@ -21,6 +21,7 @@ header {
 .milogo {
     margin-top: 20px;
     font-size: 50px;
+    cursor: pointer;
 }
 
 nav {
@@ -231,6 +232,7 @@ nav {
     color: white;
     font-family: 'Noto Sans Multani', sans-serif;
     font-size: 15px;
+    text-align: center;
 }
 
 .mifocoyprogreso {
@@ -383,7 +385,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.2;
     cursor: pointer;
     transition: all 400ms ease;
     
@@ -391,7 +392,7 @@ nav {
 
 .tarjeta1:hover {
     transform: translateY(-5%);
-    box-shadow: 0px 0px 20px 0px #d3cfce;
+    box-shadow: 0px 0px 20px 0px #77716f;
 }
 
 .tarjeta2 {
@@ -411,7 +412,7 @@ nav {
 
 .tarjeta2:hover {
     transform: translateY(-5%);
-    box-shadow: 0px 0px 20px 0px #d3cfce;
+    box-shadow: 0px 0px 20px 0px #3b3837;
 }
 
 .texto {
@@ -420,6 +421,7 @@ nav {
     margin: 0;
     color: white;
     font-family: 'Noto Sans Multani', sans-serif;
+    text-align: center;
 }
 
 .hr2 {
